@@ -19,6 +19,8 @@ Tambien podeís descargarlo directamente desde la terminal con:
 Para añadir los modulos debemos de copiar la carpeta ``bin`` del repositorio dentro de la ruta ``/home/user/.config/``. En esta carpeta podeís guardar
 futuros módulos.
 
+## Función Settarget
+
 El archivo ``targed`` es el encargado de almacenar la ``Ip`` y el ``nombre`` que se nos reportará en la Polybar. Esta herramienta está pensada para tener
 visible en todo momento la Ip y el nombre de las máquinas de Hackthebox, Tryhackme, etc.
 
