@@ -41,3 +41,7 @@ Para ejecutar la función simplemente le especificamos la Ip y el nombre de la m
 
     sudo settarget [Ip Máquina] [Nombre de la Máquina]
 
+## Módulo Ethernet:
+
+En el módulo que nos muestra nuestra Ip debemos de especificar el nombre de nuestra tarjeta de red. Lo podemos ver con el comando ``ifconfig``.
+En el actual viene el ``enp0s3``. Simplemente lo cambiáis por el vuestro.
