@@ -10,13 +10,33 @@ Entorno de trabajo personalizado en la distro de ParrotOS con Bspwm y Polybar.
 ![Captura de pantalla 2022-09-29 205652](https://user-images.githubusercontent.com/103068924/193119305-2db1ebe0-9d89-4dd4-88bd-ab7d201887b9.png)
 
 
-Para copiar el entorno de trabajo simplemente sustituir el arhcivo polybar situando en ``/home/user/.config/polybar`` por el directorio polybar del repositorio.
+Para copiar la polybar del entorno de trabajo, simplemente sustituir el arhcivo polybar situando en ``/home/user/.config/polybar`` por el directorio 
+polybar del repositorio.
 Tambien podeís descargarlo directamente desde la terminal con:
 
     git clone https://github.com/F1r0x/Polybar-Bspwm-Parrot
     
-Nota: Cambiar el nombre de usuario en todas las rutas que vienen definidas dentro de los archivos. 
+Para añadir los modulos debemos de copiar la carpeta ``bin`` del repositorio dentro de la ruta ``/home/user/.config/``. En esta carpeta podeís guardar
+futuros módulos.
 
+El archivo ``targed`` es el encargado de almacenar la ``Ip`` y el ``nombre`` que se nos reportará en la Polybar. Esta herramienta está pensada para tener
+visible en todo momento la Ip y el nombre de las máquinas de Hackthebox, Tryhackme, etc.
 
+Para poder tener esta funcion activa simpmente tendremos que pegar la funcion en el archivo ``.bashrc`` o ``.zshrc`` dependiendo de si estamos utilizando una shell
+Bash o Zsh. En mi caso utilizo ``Zsh``, asi que nos dirigimos al archivo ``.zshrc``.
+
+```
+
+function settarget(){
+    ip_address=$1
+    machine_name=$2
+    echo "$ip_address $machine_name" > /home/tuUsuario/.config/bin/target
+}
+
+```
+
+Para ejecutar la función simplemente le especificamos la Ip y el nombre de la máquina:
+
+    sudo settarget [Ip Máquina] [Nombre de la Máquina]
 
 
