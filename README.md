@@ -45,3 +45,18 @@ Para ejecutar la función simplemente le especificamos la Ip y el nombre de la m
 
 En el módulo que nos muestra nuestra Ip debemos de especificar el nombre de nuestra tarjeta de red. Lo podemos ver con el comando ``ifconfig``.
 En el actual viene el ``enp0s3``. Simplemente lo cambiáis por el vuestro.
+
+
+## Fondo de Pantalla:
+
+Para añadir un fondo deberemos especificar la ruta de la imagen que queramos y modificarla en el siguiente comando.
+
+     feh --bg-fill /home/Usuario/Imágenes/WallpaperBspwm/debianwallpaperblue.jpg
+
+Para que el fondo de pantalla se cargue de manera automática al iniciar el sistema tendremos que pegar el comando en nuestro archivo ``bspwmrc`` el
+cual se encuentra en la ruta ``~/.config/bspwm/bspwmrc``. Una vez guardado al reiniciar deberíamos de tener el fondo de pantalla disponible.
+
+
+
+
+
