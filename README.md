@@ -49,7 +49,11 @@ En el actual viene el ``enp0s3``. Simplemente lo cambiáis por el vuestro.
 
 ## Fondo de Pantalla:
 
-Para añadir un fondo deberemos especificar la ruta de la imagen que queramos y modificarla en el siguiente comando.
+Para añadir un fondo deberemos especificar la ruta de la imagen que queramos y modificarla en el siguiente comando. Para ello primero instalamos ``feh``:
+
+    sudo apt install feh
+    
+Luego podemos utilizar el siguiente comando con vuestra ruta de la imagen:    
 
      feh --bg-fill /home/Usuario/Imágenes/WallpaperBspwm/debianwallpaperblue.jpg
 
