@@ -1,4 +1,4 @@
-# Polybar-Bspwm-Parrot
+# Polybar - Bspwm - Kali/Parrot
 
 Entorno de trabajo personalizado en la distribución de Kali Linux o ParrotOS con Bspwm y Polybar. 
 
