@@ -69,4 +69,6 @@ cual se encuentra en la ruta ``~/.config/bspwm/bspwmrc``. Una vez guardado al re
 <img width="1918" height="1078" alt="Captura de pantalla 2025-12-15 214647" src="https://github.com/user-attachments/assets/9b2d4a42-011c-4904-8510-64497804ba2e" />
 <img width="1918" height="1078" alt="Captura de pantalla 2025-12-15 214743" src="https://github.com/user-attachments/assets/5878adb8-caaa-4e29-99e8-d05870aff778" />
 <img width="1918" height="1073" alt="Captura de pantalla 2025-12-15 215450" src="https://github.com/user-attachments/assets/d74ea094-4879-4a8b-a938-91415b5d8151" />
+<img width="1920" height="1076" alt="Captura de pantalla 2025-12-15 223447" src="https://github.com/user-attachments/assets/6a344d49-80f8-494a-81e0-4f071e535dff" />
+
 
