@@ -1,6 +1,6 @@
 # Polybar-Bspwm-Parrot
 
-Entorno de trabajo personalizado en la distribución de ParrotOS con Bspwm y Polybar. 
+Entorno de trabajo personalizado en la distribución de Kali Linux o ParrotOS con Bspwm y Polybar. 
 
 
 ![Captura de pantalla 2022-09-29 205509](https://user-images.githubusercontent.com/103068924/193119275-30fdd026-2f28-4a2f-8c46-daf66c5dcf62.png)
